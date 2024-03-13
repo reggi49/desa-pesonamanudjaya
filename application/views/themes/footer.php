@@ -16,13 +16,13 @@
                 <div class="widget">
                     <h5 class="widgetheading">Alamat</h5>
                     <address>
-                        <strong>Kantor Desa Bahari</strong><br>
-                        Jl. Pantai Bahari, Desa Bahari, Kecamatan Sampolawa,<br>
+                        <strong>Kantor Desa Pesona Manud Jaya</strong><br>
+                        Jl. Pantai Pesona Manud Jaya, Desa Pesona Manud Jaya, Kecamatan Sampolawa,<br>
                         Kabupaten Buton Selatan. Kode Pos 93753. Indonesia
                     </address>
                     <p>
                         <i class="icon-phone"></i> 0852-9262-6598 <br>
-                        <i class="icon-envelope-alt"></i> desabahari@gmail.com
+                        <i class="icon-envelope-alt"></i> pesonamanudjaya@gmail.com
                     </p>
                 </div>
             </div>
@@ -47,7 +47,7 @@
             <div class="row">
                 <div class="span6">
                     <div class="copyright">
-                        <p><span>&copy; Copyright <?= date('Y'); ?>. Desa Bahari</span></p>
+                        <p><span>&copy; Copyright <?= date('Y'); ?>. Desa Pesona Manud Jaya</span></p>
                     </div>
                 </div>
             </div>

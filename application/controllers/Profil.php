@@ -17,7 +17,7 @@ class Profil extends CI_Controller
         $profil = $this->profil_m;
         $data['kategori'] = $kategori->getAll();
         $data['gambaran_umum'] = $profil->getGambaranUmum();
-        $data['title'] = "Profil desa bahari";
+        $data['title'] = "Profil Desa Pesona Manud Jaya";
 
         $this->load->view('themes/header', $data);
         $this->load->view('themes/top-menu', $data);
@@ -33,7 +33,7 @@ class Profil extends CI_Controller
         $profil = $this->profil_m;
         $data['kategori'] = $kategori->getAll();
         $data['profilPemdes'] = $profil->getProfilPemdes();
-        $data['title'] = "Profil Pemerintah Desa Bahari";
+        $data['title'] = "Profil Pemerintah Desa Pesona Manud Jaya";
 
         $this->load->view('themes/header', $data);
         $this->load->view('themes/top-menu', $data);
@@ -49,7 +49,7 @@ class Profil extends CI_Controller
         $profil = $this->profil_m;
         $data['kategori'] = $kategori->getAll();
         $data['profilBpd'] = $profil->getProfilBpd();
-        $data['title'] = "Profil Badan Permusyawaratan Desa Bahari";
+        $data['title'] = "Profil Badan Permusyawaratan Desa Pesona Manud Jaya";
 
         $this->load->view('themes/header', $data);
         $this->load->view('themes/top-menu', $data);

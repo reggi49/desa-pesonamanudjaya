@@ -3,7 +3,7 @@
         <div class="container">
             <div class="row">
                 <div class="span6">
-                    <p class="topcontact"><i class="icon-google-plus"></i> desabahari@gmail.com</p>
+                    <p class="topcontact"><i class="icon-google-plus"></i> pesonamanudjaya@gmail.com</p>
                 </div>
                 <div class="span6">
 

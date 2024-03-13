@@ -3,7 +3,7 @@
     <div class="row animated-slow flyIn">
         <div class="span12">
             <div class="aligncenter">
-                <h3>Struktur Organisasi <strong>Pemerintah Desa Bahari</strong></h3>
+                <h3>Struktur Organisasi <strong>Pemerintah Desa Pesona Manud Jaya</strong></h3>
                 <p></p>
             </div>
         </div>
