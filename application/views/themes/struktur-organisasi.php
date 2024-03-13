@@ -29,7 +29,7 @@
                             <!-- Item Project and Filter Name -->
                             <li class="item-thumbs span3 kades" data-id="id-0" data-type="kades">
                                 <div class="team-box thumbnail animated-slow flyIn">
-                                    <img src="<?php echo base_url('public/'); ?>img/pemdes/kades.jpg" alt="" />
+                                    <img src="<?php echo base_url('public/'); ?>img/pemdes/kades.png" alt="" />
                                     <div class="caption">
                                         <h5>LA JIDI</h5>
                                         <p>KEPALA DESA</p>
@@ -58,7 +58,7 @@
                             <!-- Item Project and Filter Name -->
                             <li class="item-thumbs span3 sekdes" data-id="id-1" data-type="sekdes">
                                 <div class="team-box thumbnail animated-slow flyIn">
-                                    <img src="<?php echo base_url('public/'); ?>img/pemdes/sekdes.jpg" alt="" />
+                                    <img src="<?php echo base_url('public/'); ?>img/pemdes/sekdes.png" alt="" />
                                     <div class="caption">
                                         <h5>MURDINI, S.I.P.</h5>
                                         <p>SEKRETARIS DESA</p>
@@ -87,7 +87,7 @@
                             <!-- Item Project and Filter Name -->
                             <li class="item-thumbs span3 kasi" data-id="id-2" data-type="kaur">
                                 <div class="team-box thumbnail animated-slow flyIn">
-                                    <img src="<?php echo base_url('public/'); ?>img/pemdes/keuangan.jpg" alt="" />
+                                    <img src="<?php echo base_url('public/'); ?>img/pemdes/keuangan.png" alt="" />
                                     <div class="caption">
                                         <h5>KARMAN K.</h5>
                                         <p>KAUR PEMBANGUNAN</p>
@@ -116,7 +116,7 @@
                             <!-- Item Project and Filter Name -->
                             <li class="item-thumbs span3 kasi" data-id="id-0" data-type="kaur">
                                 <div class="team-box thumbnail animated-slow flyIn">
-                                    <img src="<?php echo base_url('public/'); ?>img/pemdes/umum.jpg" alt="" />
+                                    <img src="<?php echo base_url('public/'); ?>img/pemdes/umum.png" alt="" />
                                     <div class="caption">
                                         <h5>SUDIRYANTO</h5>
                                         <p>KAUR UMUM & PERENCANAAN</p>
@@ -145,7 +145,7 @@
                             <!-- Item Project and Filter Name -->
                             <li class="item-thumbs span3 kaur" data-id="id-4" data-type="kasi">
                                 <div class="team-box thumbnail animated-slow flyIn">
-                                    <img src="<?php echo base_url('public/'); ?>img/pemdes/pemerintahan.jpg" alt="" />
+                                    <img src="<?php echo base_url('public/'); ?>img/pemdes/pemerintahan.png" alt="" />
                                     <div class="caption">
                                         <h5>LA ODE HARIMU</h5>
                                         <p>KASI PEMERINTAHAN</p>
@@ -174,7 +174,7 @@
                             <!-- Item Project and Filter Name -->
                             <li class="item-thumbs span3 kaur" data-id="id-5" data-type="kasi">
                                 <div class="team-box thumbnail animated-slow flyIn">
-                                    <img src="<?php echo base_url('public/'); ?>img/pemdes/kesra.jpg" alt="" />
+                                    <img src="<?php echo base_url('public/'); ?>img/pemdes/kesra.png" alt="" />
                                     <div class="caption">
                                         <h5>DISMAN</h5>
                                         <p>KASI KESRA & PELAYANAN</p>
@@ -202,7 +202,7 @@
 
                             <li class="item-thumbs span3 kadus" data-id="id-0" data-type="kadus">
                                 <div class="team-box thumbnail animated-slow flyIn">
-                                    <img src="<?php echo base_url('public/'); ?>img/pemdes/ngapaompu.jpg" alt="" />
+                                    <img src="<?php echo base_url('public/'); ?>img/pemdes/ngapaompu.png" alt="" />
                                     <div class="caption">
                                         <h5>LA RUO, S.Ag.</h5>
                                         <p>KADUS NGAPAOMPU</p>
@@ -231,7 +231,7 @@
                             <!-- Item Project and Filter Name -->
                             <li class="item-thumbs span3 kadus" data-id="id-0" data-type="kadus">
                                 <div class="team-box thumbnail animated-slow flyIn">
-                                    <img src="<?php echo base_url('public/'); ?>img/pemdes/wapulaka.jpg" alt="" />
+                                    <img src="<?php echo base_url('public/'); ?>img/pemdes/wapulaka.png" alt="" />
                                     <div class="caption">
                                         <h5>LA BAMA</h5>
                                         <p>KADUS WAPULAKA</p>
