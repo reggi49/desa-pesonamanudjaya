@@ -20,7 +20,7 @@ class Galeri extends CI_Controller
         $this->load->view('themes/top-menu', $data);
         $this->load->view('themes/breadcrumb');
         $this->load->view('galeri/foto');
-        $this->load->view('themes/sidebar');
+        $this->load->view('themes/sidebar', $data);
         $this->load->view('themes/footer');
     }
 
@@ -34,7 +34,7 @@ class Galeri extends CI_Controller
         $this->load->view('themes/top-menu', $data);
         $this->load->view('themes/breadcrumb');
         $this->load->view('galeri/video');
-        $this->load->view('themes/sidebar');
+        $this->load->view('themes/sidebar', $data);
         $this->load->view('themes/footer');
     }
 }

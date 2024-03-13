@@ -19,7 +19,7 @@ class Kabardesa extends CI_Controller
         $this->load->view('themes/top-menu', $data);
         $this->load->view('themes/breadcrumb');
         $this->load->view('kabardesa/index');
-        $this->load->view('themes/sidebar');
+        $this->load->view('themes/sidebar', $data);
         $this->load->view('themes/footer');
     }
 
@@ -32,7 +32,7 @@ class Kabardesa extends CI_Controller
         $this->load->view('themes/top-menu', $data);
         $this->load->view('themes/breadcrumb');
         $this->load->view('kabardesa/readmore');
-        $this->load->view('themes/sidebar');
+        $this->load->view('themes/sidebar', $data);
         $this->load->view('themes/footer');
     }
 }

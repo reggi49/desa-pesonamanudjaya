@@ -58,7 +58,7 @@ class Opini extends CI_Controller
         $this->load->view('themes/top-menu', $data);
         $this->load->view('themes/breadcrumb');
         $this->load->view('opini/index');
-        $this->load->view('themes/sidebar');
+        $this->load->view('themes/sidebar', $data);
         $this->load->view('themes/footer');
     }
 
@@ -72,7 +72,7 @@ class Opini extends CI_Controller
         $this->load->view('themes/top-menu', $data);
         $this->load->view('themes/breadcrumb');
         $this->load->view('opini/readmore');
-        $this->load->view('themes/sidebar');
+        $this->load->view('themes/sidebar', $data);
         $this->load->view('themes/footer');
     }
 }

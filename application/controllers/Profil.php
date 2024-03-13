@@ -23,7 +23,7 @@ class Profil extends CI_Controller
         $this->load->view('themes/top-menu', $data);
         $this->load->view('themes/breadcrumb');
         $this->load->view('profil/desa');
-        $this->load->view('themes/sidebar');
+        $this->load->view('themes/sidebar', $data);
         $this->load->view('themes/footer');
     }
 
@@ -39,7 +39,7 @@ class Profil extends CI_Controller
         $this->load->view('themes/top-menu', $data);
         $this->load->view('themes/breadcrumb');
         $this->load->view('profil/pemdes');
-        $this->load->view('themes/sidebar');
+        $this->load->view('themes/sidebar', $data);
         $this->load->view('themes/footer');
     }
 
@@ -55,7 +55,7 @@ class Profil extends CI_Controller
         $this->load->view('themes/top-menu', $data);
         $this->load->view('themes/breadcrumb');
         $this->load->view('profil/bpd');
-        $this->load->view('themes/sidebar');
+        $this->load->view('themes/sidebar', $data);
         $this->load->view('themes/footer');
     }
 }
