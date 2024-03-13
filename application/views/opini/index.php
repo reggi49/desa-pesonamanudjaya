@@ -10,7 +10,7 @@
                             <div class="span8">
                                 <div class="post-image">
                                     <div class="post-heading">
-                                        <h3><a href="#"><?= $row['title']; ?></a></h3>
+                                        <h3><a href="<?= base_url(); ?>opini/readmore/<?= $row['id']; ?>"><?= $row['title']; ?></a></h3>
                                     </div>
 
                                     <img src="<?= base_url('upload_file/images/' . $row['image']); ?>" alt="" />

@@ -11,7 +11,7 @@
                                 <div class="span8">
                                     <div class="post-image">
                                         <div class="post-heading">
-                                            <h3><a href="#"><?= $row['title']; ?></a></h3>
+                                            <h3><a href="<?php echo base_url(); ?>artikel/readmore/<?php echo $row['id']; ?>"><?= $row['title']; ?></a></h3>
                                         </div>
                                         <img src="<?= base_url('upload_file/images/' . $row['image']); ?>" alt="" />
                                     </div>
