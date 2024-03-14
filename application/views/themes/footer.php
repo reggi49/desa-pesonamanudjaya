@@ -17,11 +17,11 @@
                     <h5 class="widgetheading">Alamat</h5>
                     <address>
                         <strong>Kantor Desa Pesona Manud Jaya</strong><br>
-                        Jl. Danau Toba Pesona Manud Jaya, Desa Pesona Manud Jaya, Kecamatan Sampolawa,<br>
+                        Jl. Danau Toba Pesona Manud Jaya, Desa Pesona Manud Jaya,<br>
                         Kabupaten Kabupaten Samosir, Sumatera Utara. Kode Pos 22359. Indonesia
                     </address>
                     <p>
-                        <i class="icon-phone"></i> 0852-9262-6598 <br>
+                        <i class="icon-phone"></i> 0852-1111-2222 <br>
                         <i class="icon-envelope-alt"></i> pesonamanudjaya@gmail.com
                     </p>
                 </div>
@@ -35,7 +35,7 @@
                     <form class="subscribe">
                         <div class="input-append">
                             <input class="span2" id="appendedInputButton" type="text" placeholder="Testimoni...">
-                            <button class="btn btn-theme" type="submit">Posting</button>
+                            <button class="btn btn-theme" type="submit" onclick="funcSuccess()">Posting</button>
                         </div>
                     </form>
                 </div>
@@ -60,6 +60,11 @@
 <!-- javascript
     ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
+<script>
+    function funcSuccess() {
+        alert("Terima kasih,Kami akan menghubungi secepatnya.");
+    }
+</script>
 <script src="<?php echo base_url('public/'); ?>js/jquery.js"></script>
 <script src="<?php echo base_url('public/'); ?>js/jquery.easing.1.3.js"></script>
 <script src="<?php echo base_url('public/'); ?>js/bootstrap.js"></script>
