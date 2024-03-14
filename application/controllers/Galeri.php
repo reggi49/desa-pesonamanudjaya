@@ -15,6 +15,7 @@ class Galeri extends CI_Controller
         $kategori = $this->kategori_m;
         $data['kategori'] = $kategori->getAll();
         $data['title'] = "Foto";
+        $data['popular'] = $artikel->kabarTerkini();
 
         $this->load->view('themes/header', $data);
         $this->load->view('themes/top-menu', $data);
@@ -29,6 +30,7 @@ class Galeri extends CI_Controller
         $kategori = $this->kategori_m;
         $data['kategori'] = $kategori->getAll();
         $data['title'] = "Video";
+        $data['popular'] = $artikel->kabarTerkini();
 
         $this->load->view('themes/header', $data);
         $this->load->view('themes/top-menu', $data);

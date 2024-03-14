@@ -17,6 +17,8 @@ class Artikel extends CI_Controller
         $data['kategori'] = $this->kategori->getAll();
         $data['artikel'] = $artikel->getAll();
         $data['title'] = "Artikel";
+        $data['popular'] = $artikel->kabarTerkini();
+
         $this->load->view('themes/header', $data);
         $this->load->view('themes/top-menu', $data);
         $this->load->view('themes/breadcrumb');
@@ -33,6 +35,8 @@ class Artikel extends CI_Controller
         $data['kategori'] = $this->kategori->getAll();
         $data['artikel'] = $artikel->readMore($id);
         $data['title'] = "Artikel";
+        $data['popular'] = $artikel->kabarTerkini();
+
         $this->load->view('themes/header', $data);
         $this->load->view('themes/top-menu', $data);
         $this->load->view('themes/breadcrumb');

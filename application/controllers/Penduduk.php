@@ -18,6 +18,7 @@ class Penduduk extends CI_Controller
         $kategori = $this->kategori_m;
         $data['kategori'] = $kategori->getAll();
         $data['title'] = "Penduduk";
+        $data['popular'] = $artikel->kabarTerkini();
 
         $this->load->view('themes/header', $data);
         $this->load->view('themes/top-menu', $data);

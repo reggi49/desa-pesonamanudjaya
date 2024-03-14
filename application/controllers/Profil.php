@@ -18,6 +18,7 @@ class Profil extends CI_Controller
         $data['kategori'] = $kategori->getAll();
         $data['gambaran_umum'] = $profil->getGambaranUmum();
         $data['title'] = "Profil Desa Pesona Manud Jaya";
+        $data['popular'] = $artikel->kabarTerkini();
 
         $this->load->view('themes/header', $data);
         $this->load->view('themes/top-menu', $data);
@@ -34,6 +35,7 @@ class Profil extends CI_Controller
         $data['kategori'] = $kategori->getAll();
         $data['gambaran_umum'] = $profil->getGambaranUmum();
         $data['title'] = "Profil Desa Pesona Manud Jaya";
+        $data['popular'] = $artikel->kabarTerkini();
 
         $this->load->view('themes/header', $data);
         $this->load->view('themes/top-menu', $data);
@@ -50,6 +52,7 @@ class Profil extends CI_Controller
         $data['kategori'] = $kategori->getAll();
         $data['gambaran_umum'] = $profil->getGambaranUmum();
         $data['title'] = "Profil Desa Pesona Manud Jaya";
+        $data['popular'] = $artikel->kabarTerkini();
 
         $this->load->view('themes/header', $data);
         $this->load->view('themes/top-menu', $data);
@@ -66,6 +69,7 @@ class Profil extends CI_Controller
         $data['kategori'] = $kategori->getAll();
         $data['gambaran_umum'] = $profil->getGambaranUmum();
         $data['title'] = "Profil Desa Pesona Manud Jaya";
+        $data['popular'] = $artikel->kabarTerkini();
 
         $this->load->view('themes/header', $data);
         $this->load->view('themes/top-menu', $data);
@@ -82,6 +86,7 @@ class Profil extends CI_Controller
         $data['kategori'] = $kategori->getAll();
         $data['profilPemdes'] = $profil->getProfilPemdes();
         $data['title'] = "Profil Pemerintah Desa Pesona Manud Jaya";
+        $data['popular'] = $artikel->kabarTerkini();
 
         $this->load->view('themes/header', $data);
         $this->load->view('themes/top-menu', $data);
@@ -98,6 +103,7 @@ class Profil extends CI_Controller
         $data['kategori'] = $kategori->getAll();
         $data['profilBpd'] = $profil->getProfilBpd();
         $data['title'] = "Profil Badan Permusyawaratan Desa Pesona Manud Jaya";
+        $data['popular'] = $artikel->kabarTerkini();
 
         $this->load->view('themes/header', $data);
         $this->load->view('themes/top-menu', $data);
