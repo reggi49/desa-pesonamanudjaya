@@ -9,6 +9,7 @@ class Penduduk extends CI_Controller
         parent::__construct();
         $this->load->model('penduduk_m');
         $this->load->model('kategori_m');
+        $this->load->model('artikel_m');
     }
 
     public function index()
@@ -18,6 +19,7 @@ class Penduduk extends CI_Controller
         $kategori = $this->kategori_m;
         $data['kategori'] = $kategori->getAll();
         $data['title'] = "Penduduk";
+        $artikel = $this->artikel_m;
         $data['popular'] = $artikel->kabarTerkini();
 
         $this->load->view('themes/header', $data);

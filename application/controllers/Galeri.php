@@ -8,6 +8,8 @@ class Galeri extends CI_Controller
     {
         parent::__construct();
         $this->load->model('kategori_m');
+        $this->load->model('artikel_m');
+
     }
 
     public function foto()
@@ -15,6 +17,7 @@ class Galeri extends CI_Controller
         $kategori = $this->kategori_m;
         $data['kategori'] = $kategori->getAll();
         $data['title'] = "Foto";
+        $artikel = $this->artikel_m;
         $data['popular'] = $artikel->kabarTerkini();
 
         $this->load->view('themes/header', $data);
@@ -30,6 +33,7 @@ class Galeri extends CI_Controller
         $kategori = $this->kategori_m;
         $data['kategori'] = $kategori->getAll();
         $data['title'] = "Video";
+        $artikel = $this->artikel_m;
         $data['popular'] = $artikel->kabarTerkini();
 
         $this->load->view('themes/header', $data);

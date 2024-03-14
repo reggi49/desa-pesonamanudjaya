@@ -9,6 +9,8 @@ class Profil extends CI_Controller
         parent::__construct();
         $this->load->model('profil_m');
         $this->load->model('kategori_m');
+        $this->load->model('artikel_m');
+
     }
 
     public function desa()
@@ -18,6 +20,7 @@ class Profil extends CI_Controller
         $data['kategori'] = $kategori->getAll();
         $data['gambaran_umum'] = $profil->getGambaranUmum();
         $data['title'] = "Profil Desa Pesona Manud Jaya";
+        $artikel = $this->artikel_m;
         $data['popular'] = $artikel->kabarTerkini();
 
         $this->load->view('themes/header', $data);
@@ -35,6 +38,7 @@ class Profil extends CI_Controller
         $data['kategori'] = $kategori->getAll();
         $data['gambaran_umum'] = $profil->getGambaranUmum();
         $data['title'] = "Profil Desa Pesona Manud Jaya";
+        $artikel = $this->artikel_m;
         $data['popular'] = $artikel->kabarTerkini();
 
         $this->load->view('themes/header', $data);
@@ -52,6 +56,7 @@ class Profil extends CI_Controller
         $data['kategori'] = $kategori->getAll();
         $data['gambaran_umum'] = $profil->getGambaranUmum();
         $data['title'] = "Profil Desa Pesona Manud Jaya";
+        $artikel = $this->artikel_m;
         $data['popular'] = $artikel->kabarTerkini();
 
         $this->load->view('themes/header', $data);
@@ -69,6 +74,7 @@ class Profil extends CI_Controller
         $data['kategori'] = $kategori->getAll();
         $data['gambaran_umum'] = $profil->getGambaranUmum();
         $data['title'] = "Profil Desa Pesona Manud Jaya";
+        $artikel = $this->artikel_m;
         $data['popular'] = $artikel->kabarTerkini();
 
         $this->load->view('themes/header', $data);
@@ -86,6 +92,7 @@ class Profil extends CI_Controller
         $data['kategori'] = $kategori->getAll();
         $data['profilPemdes'] = $profil->getProfilPemdes();
         $data['title'] = "Profil Pemerintah Desa Pesona Manud Jaya";
+        $artikel = $this->artikel_m;
         $data['popular'] = $artikel->kabarTerkini();
 
         $this->load->view('themes/header', $data);
@@ -103,6 +110,7 @@ class Profil extends CI_Controller
         $data['kategori'] = $kategori->getAll();
         $data['profilBpd'] = $profil->getProfilBpd();
         $data['title'] = "Profil Badan Permusyawaratan Desa Pesona Manud Jaya";
+        $artikel = $this->artikel_m;
         $data['popular'] = $artikel->kabarTerkini();
 
         $this->load->view('themes/header', $data);
