@@ -59,7 +59,7 @@
                                         <li><a href="<?= base_url('profil/bpd'); ?>">BPD</a></li>
                                     </ul>
                                 </li>
-                                <li class="dropdown">
+                                <!-- <li class="dropdown">
                                     <a href="#">Lembaga Desa <i class="icon-angle-down"></i></a>
                                     <ul class="dropdown-menu">
                                         <li><a href="#">Karang Taruna</a></li>
@@ -67,7 +67,7 @@
                                         <li><a href="#">Majelis Taklim</a></li>
                                         <li><a href="#">LPMD</a></li>
                                     </ul>
-                                </li>
+                                </li> -->
                                 <li><a href="<?= base_url('artikel'); ?>">Kabar Desa</a></li>
                                 <li><a href="<?= base_url('penduduk'); ?>">Penduduk </a></li>
 
