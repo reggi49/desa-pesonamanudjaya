@@ -86,4 +86,20 @@ class Profil_m extends CI_Model
     {
         return $this->db->get_where($this->_table, 'id = 3')->result_array();
     }
+
+    public function visimisi()
+    {
+        return $this->db->get_where($this->_table, 'id = 4')->result_array();
+    }
+
+    public function sejarah()
+    {
+        return $this->db->get_where($this->_table, 'id = 5')->result_array();
+    }
+
+    public function potensi()
+    {
+        return $this->db->get_where($this->_table, 'id = 6')->result_array();
+    }
+
 }

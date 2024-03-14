@@ -27,6 +27,54 @@ class Profil extends CI_Controller
         $this->load->view('themes/footer');
     }
 
+    public function visimisi()
+    {
+        $kategori = $this->kategori_m;
+        $profil = $this->profil_m;
+        $data['kategori'] = $kategori->getAll();
+        $data['gambaran_umum'] = $profil->getGambaranUmum();
+        $data['title'] = "Profil Desa Pesona Manud Jaya";
+
+        $this->load->view('themes/header', $data);
+        $this->load->view('themes/top-menu', $data);
+        $this->load->view('themes/breadcrumb');
+        $this->load->view('profil/desa');
+        $this->load->view('themes/sidebar', $data);
+        $this->load->view('themes/footer');
+    }
+
+    public function sejarah()
+    {
+        $kategori = $this->kategori_m;
+        $profil = $this->profil_m;
+        $data['kategori'] = $kategori->getAll();
+        $data['gambaran_umum'] = $profil->getGambaranUmum();
+        $data['title'] = "Profil Desa Pesona Manud Jaya";
+
+        $this->load->view('themes/header', $data);
+        $this->load->view('themes/top-menu', $data);
+        $this->load->view('themes/breadcrumb');
+        $this->load->view('profil/desa');
+        $this->load->view('themes/sidebar', $data);
+        $this->load->view('themes/footer');
+    }
+
+    public function potensi()
+    {
+        $kategori = $this->kategori_m;
+        $profil = $this->profil_m;
+        $data['kategori'] = $kategori->getAll();
+        $data['gambaran_umum'] = $profil->getGambaranUmum();
+        $data['title'] = "Profil Desa Pesona Manud Jaya";
+
+        $this->load->view('themes/header', $data);
+        $this->load->view('themes/top-menu', $data);
+        $this->load->view('themes/breadcrumb');
+        $this->load->view('profil/desa');
+        $this->load->view('themes/sidebar', $data);
+        $this->load->view('themes/footer');
+    }
+
     public function pemdes()
     {
         $kategori = $this->kategori_m;
