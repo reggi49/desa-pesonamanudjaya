@@ -77,7 +77,7 @@
 
             <h5 class="widgetheading">Text widget</h5>
             <p>
-                Desa Pesona Manud Jaya merupakan salah satu desa dalam wilayah Kecamatan Sampolawa Kabupaten Buton Selatan. Luas wilayah Desa Pesona Manud Jaya adalah 450 Ha.
+                Desa Pesona Manud Jaya merupakan salah satu desa dalam wilayah Kecamatan Sampolawa Kabupaten Kabupaten Samosir, Sumatera Utara. Luas wilayah Desa Pesona Manud Jaya adalah 450 Ha.
             </p>
 
         </div>

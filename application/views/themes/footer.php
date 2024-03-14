@@ -17,8 +17,8 @@
                     <h5 class="widgetheading">Alamat</h5>
                     <address>
                         <strong>Kantor Desa Pesona Manud Jaya</strong><br>
-                        Jl. Pantai Pesona Manud Jaya, Desa Pesona Manud Jaya, Kecamatan Sampolawa,<br>
-                        Kabupaten Buton Selatan. Kode Pos 93753. Indonesia
+                        Jl. Danau Toba Pesona Manud Jaya, Desa Pesona Manud Jaya, Kecamatan Sampolawa,<br>
+                        Kabupaten Kabupaten Samosir, Sumatera Utara. Kode Pos 22359. Indonesia
                     </address>
                     <p>
                         <i class="icon-phone"></i> 0852-9262-6598 <br>

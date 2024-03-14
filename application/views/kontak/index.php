@@ -41,8 +41,8 @@
                         <h5 class="widgetheading">Informasi Kontak<span></span></h5>
 
                         <ul class="contact-info">
-                            <li><label>Alamat :</label> Jl. Pantai Pesona Manud Jaya, Desa Pesona Manud Jaya<br /> Buton Selatan - Indonesia</li>
-                            <li><label>Phone :</label>+62 852 926 265 98</li>
+                            <li><label>Alamat :</label> Jl. Danau Toba Pesona Manud Jaya, Desa Pesona Manud Jaya<br /> Kabupaten Samosir, Sumatera Utara - Indonesia</li>
+                            <li><label>Phone :</label>+62 111 222 333 44</li>
                             <li><label>Email : </label> pesonamanudjaya@gmail.com</li>
                         </ul>
 
