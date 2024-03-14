@@ -125,4 +125,47 @@ class Profil extends CI_Controller
             redirect('admin/profil/bpd');
         }
     }
+
+    public function visimisi()
+    {
+        $menu = $this->menu_m;
+        $profil = $this->profil_m;
+        $data['menu'] = $menu->getAll();
+        $data['gambaran_umum'] = $profil->visimisi();
+        $data['title'] = "Profil";
+
+        $this->load->view('_partials/header', $data);
+        $this->load->view('_partials/sidebar', $data);
+        $this->load->view('_partials/top-menu');
+        $this->load->view('admin/profil/desa');
+        $this->load->view('_partials/footer');
+    }
+    public function sejarah()
+    {
+        $menu = $this->menu_m;
+        $profil = $this->profil_m;
+        $data['menu'] = $menu->getAll();
+        $data['gambaran_umum'] = $profil->sejarah();
+        $data['title'] = "Profil";
+
+        $this->load->view('_partials/header', $data);
+        $this->load->view('_partials/sidebar', $data);
+        $this->load->view('_partials/top-menu');
+        $this->load->view('admin/profil/desa');
+        $this->load->view('_partials/footer');
+    }
+    public function potensi()
+    {
+        $menu = $this->menu_m;
+        $profil = $this->profil_m;
+        $data['menu'] = $menu->getAll();
+        $data['gambaran_umum'] = $profil->potensi();
+        $data['title'] = "Profil";
+
+        $this->load->view('_partials/header', $data);
+        $this->load->view('_partials/sidebar', $data);
+        $this->load->view('_partials/top-menu');
+        $this->load->view('admin/profil/desa');
+        $this->load->view('_partials/footer');
+    }
 }

@@ -11,26 +11,29 @@
                     <span class="<?= $row['icon']; ?>" aria-hidden="true"></span>
                     <span class="hidden-sm hidden-xs"><?= $row['title']; ?></span>
                 </a>
+                </li>
+            <?php endforeach; ?>
+
+            <li class="link">
+                <a href="#collapse-profil" data-toggle="collapse" aria-controls="collapse-profil">
+                    <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+                    <span class="hidden-sm hidden-xs">Profil</span>
+                </a>
+                <ul class="collapse collapseable" id="collapse-profil">
+                    <li><a href="<?= base_url('admin/profil/desa'); ?>">Profil desa</a></li>
+                    <li><a href="<?= base_url('admin/profil/visimisi'); ?>">Visi - Misi</a></li>
+                    <li><a href="<?= base_url('admin/profil/sejarah'); ?>">Sejarah</a></li>
+                    <li><a href="<?= base_url('admin/profil/potensi'); ?>">Potensi</a></li>
+                    <li><a href="<?= base_url('admin/profil/pemdes'); ?>">Profil pemdes</a></li>
+                    <li><a href="<?= base_url('admin/profil/bpd'); ?>">Profil BPD</a></li>
+                </ul>
             </li>
-        <?php endforeach; ?>
 
-        <li class="link">
-            <a href="#collapse-profil" data-toggle="collapse" aria-controls="collapse-profil">
-                <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
-                <span class="hidden-sm hidden-xs">Profil</span>
-            </a>
-            <ul class="collapse collapseable" id="collapse-profil">
-                <li><a href="<?= base_url('admin/profil/desa'); ?>">Profil desa</a></li>
-                <li><a href="<?= base_url('admin/profil/pemdes'); ?>">Profil pemdes</a></li>
-                <li><a href="<?= base_url('admin/profil/bpd'); ?>">Profil BPD</a></li>
-            </ul>
-        </li>
-
-        <li class="link settings-btn">
-            <a href="#">
-                <span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
-                <span class="hidden-sm hidden-xs">Settings</span>
-            </a>
-        </li>
+            <li class="link settings-btn">
+                <a href="#">
+                    <span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
+                    <span class="hidden-sm hidden-xs">Settings</span>
+                </a>
+            </li>
     </ul>
 </div>

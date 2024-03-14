@@ -10,8 +10,8 @@
                 </blockquote>
                 <div class="testimonial-autor">
                     <img src="<?php echo base_url('public/'); ?>img/dummies/testimonial/1.png" alt="" />
-                    <h4>Kang</h4>
-                    <a href="#">http://dismaninfo.wordpress.com</a>
+                    <h4>Cak Tretan</h4>
+                    <!-- <a href="#">http://dismaninfo.wordpress.com</a> -->
                 </div>
             </li>
             <li>
@@ -20,8 +20,8 @@
                 </blockquote>
                 <div class="testimonial-autor">
                     <img src="<?php echo base_url('public/'); ?>img/dummies/testimonial/2.png" alt="" />
-                    <h4>Kang</h4>
-                    <a href="#">http://dismaninfo.wordpress.com</a>
+                    <h4>Bang Togar</h4>
+                    <!-- <a href="#">http://dismaninfo.wordpress.com</a> -->
                 </div>
             </li>
             <li>
@@ -30,8 +30,8 @@
                 </blockquote>
                 <div class="testimonial-autor">
                     <img src="<?php echo base_url('public/'); ?>img/dummies/testimonial/3.png" alt="" />
-                    <h4>Kang</h4>
-                    <a href="#">http://dismaninfo.wordpress.com</a>
+                    <h4>Kang Acep</h4>
+                    <!-- <a href="#">http://dismaninfo.wordpress.com</a> -->
                 </div>
             </li>
         </ul>
