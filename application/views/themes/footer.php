@@ -18,7 +18,7 @@
                     <address>
                         <strong>Kantor Desa Pesona Manud Jaya</strong><br>
                         Jl. Danau Toba Pesona Manud Jaya, Desa Pesona Manud Jaya,<br>
-                        Kabupaten Kabupaten Samosir, Sumatera Utara. Kode Pos 22359. Indonesia
+                        Kabupaten Samosir, Sumatera Utara. Kode Pos 22359. Indonesia
                     </address>
                     <p>
                         <i class="icon-phone"></i> 0852-1111-2222 <br>
