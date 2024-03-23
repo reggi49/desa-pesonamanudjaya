@@ -79,10 +79,12 @@ class Galery_m extends CI_Model
 
         $this->load->library('upload', $config);
 
-        if ($this->upload->do_upload('image')) {
+        if ($this->upload->do_upload('foto')) {
             return $this->upload->data("file_name");
-        }
-        return "default.jpg";
+        } else {
+            // $error = $this->upload->display_errors();
+            return "default.jpg";
+        } 
     }
 
     private function _deleteImage($id)
