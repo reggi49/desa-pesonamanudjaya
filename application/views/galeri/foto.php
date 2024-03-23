@@ -9,7 +9,7 @@
                         $uploadDir = base_url() . 'uploads/images/';
                         $imageURL = $uploadDir . $row["file_name"];
                     ?>
-                        <div class="col-lg-3">
+                        <div class="span8">
                             <a href="<?php echo $imageURL; ?>" data-fancybox="gallery" data-caption="<?php echo $row["title"]; ?>">
                                 <img src="<?php echo $imageURL; ?>" alt="" />
                                 <p><?php echo $row["title"]; ?></p>
@@ -17,19 +17,19 @@
                         </div>
                     <?php } ?>
                 <?php } else { ?>
-                    <div class="col-xs-12">
+                    <div class="span8">
                         <div class="alert alert-danger">No image(s) found...</div>
                     </div>
                 <?php } ?>
             </div>
 
-        <!-- Fancybox CSS library -->
-        <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/fancybox/disc/jquery.fancybox.min.css'); ?>">
+            <!-- Fancybox CSS library -->
+            <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/fancybox/disc/jquery.fancybox.min.css'); ?>">
 
-        <!-- Fancybox JS library -->
-        <script src="<?php echo base_url('assets/fancybox/disc/jquery.fancybox.min'); ?>"></script>
+            <!-- Fancybox JS library -->
+            <script src="<?php echo base_url('assets/fancybox/disc/jquery.fancybox.min'); ?>"></script>
 
-        <!-- Initialize fancybox -->
-        <script>
-            $("[data-fancybox]").fancybox();
-        </script>
+            <!-- Initialize fancybox -->
+            <script>
+                $("[data-fancybox]").fancybox();
+            </script>
