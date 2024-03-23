@@ -23,13 +23,4 @@
                 <?php } ?>
             </div>
 
-            <!-- Fancybox CSS library -->
-            <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/fancybox/dist/jquery.fancybox.min.css'); ?>">
-
-            <!-- Fancybox JS library -->
-            <script language="JavaScript" type="text/javascript" src="<?php echo base_url('assets/fancybox/dist/jquery.fancybox.min.js'); ?>"></script>
-
-            <!-- Initialize fancybox -->
-            <script>
-                $("[data-fancybox]").fancybox();
-            </script>
+           
