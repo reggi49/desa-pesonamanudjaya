@@ -24,10 +24,10 @@
             </div>
 
             <!-- Fancybox CSS library -->
-            <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/fancybox/disc/jquery.fancybox.min.css'); ?>">
+            <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/fancybox/dist/jquery.fancybox.min.css'); ?>">
 
             <!-- Fancybox JS library -->
-            <script src="<?php echo base_url('assets/fancybox/disc/jquery.fancybox.min'); ?>"></script>
+            <script src="<?php echo base_url('assets/fancybox/dist/jquery.fancybox.min'); ?>"></script>
 
             <!-- Initialize fancybox -->
             <script>
