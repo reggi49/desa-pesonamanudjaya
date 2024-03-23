@@ -23,6 +23,7 @@
                 <?php } ?>
             </div>
         </div>
+    </div>
 
         <!-- Fancybox CSS library -->
         <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/fancybox/disc/jquery.fancybox.min.css'); ?>">
