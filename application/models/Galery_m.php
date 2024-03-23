@@ -73,9 +73,9 @@ class Galery_m extends CI_Model
     private function _uploadImage()
     {
         $config['upload_path']          = './upload_file/images/';
-        $config['allowed_types']        = 'gif|jpg|png';
+        $config['allowed_types']        = 'gif|jpg|png|jpeg';
         $config['overwrite']            = true;
-        $config['max_size']             = 1024;
+        $config['max_size']             = 10 * 1024;
 
         $this->load->library('upload', $config);
 
