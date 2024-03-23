@@ -7,7 +7,7 @@
                     <?php
                     foreach ($gallery as $row) {
                         $uploadDir = base_url() . 'uploads/images/';
-                        $imageURL = $uploadDir . $row["file_name"];
+                        $imageURL = $uploadDir . $row["galery"];
                     ?>
                         <div class="span8">
                             <a href="<?php echo $imageURL; ?>" data-fancybox="gallery" data-caption="<?php echo $row["title"]; ?>">
