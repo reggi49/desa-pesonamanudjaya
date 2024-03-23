@@ -9,6 +9,7 @@ class Galeri extends CI_Controller
         parent::__construct();
         $this->load->model('kategori_m');
         $this->load->model('artikel_m');
+        $this->load->model('galery_m');
 
     }
 
@@ -19,11 +20,13 @@ class Galeri extends CI_Controller
         $data['title'] = "Foto";
         $artikel = $this->artikel_m;
         $data['popular'] = $artikel->kabarTerkini();
+        $galery = $this->galery_m;
+        $data['galery'] = $galery->getAllImage();
 
         $this->load->view('themes/header', $data);
         $this->load->view('themes/top-menu', $data);
         $this->load->view('themes/breadcrumb');
-        $this->load->view('galeri/foto');
+        $this->load->view('galeri/foto',$data);
         $this->load->view('themes/sidebar', $data);
         $this->load->view('themes/footer');
     }
