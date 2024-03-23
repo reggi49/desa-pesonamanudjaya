@@ -27,7 +27,7 @@
             <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/fancybox/dist/jquery.fancybox.min.css'); ?>">
 
             <!-- Fancybox JS library -->
-            <script src="<?php echo base_url('assets/fancybox/dist/jquery.fancybox.min.js'); ?>"></script>
+            <script language="JavaScript" type="text/javascript" src="<?php echo base_url('assets/fancybox/dist/jquery.fancybox.min.js'); ?>"></script>
 
             <!-- Initialize fancybox -->
             <script>
