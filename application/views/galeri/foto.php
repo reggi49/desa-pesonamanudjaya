@@ -6,7 +6,7 @@
                 <?php if (!empty($gallery)) { ?>
                     <?php
                     foreach ($gallery as $row) {
-                        $uploadDir = base_url() . 'uploads/images/';
+                        $uploadDir = base_url() . 'upload_file/images/';
                         $imageURL = $uploadDir . $row["galery"];
                     ?>
                         <div class="span8">
