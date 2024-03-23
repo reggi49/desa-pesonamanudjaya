@@ -21,7 +21,7 @@ class Galeri extends CI_Controller
         $artikel = $this->artikel_m;
         $data['popular'] = $artikel->kabarTerkini();
         $galery = $this->galery_m;
-        $data['galery'] = $galery->getAllImage();
+        $data['gallery'] = $galery->getAllImage();
 
         $this->load->view('themes/header', $data);
         $this->load->view('themes/top-menu', $data);
